@@ -92,7 +92,7 @@ def extract_features_from_audio_path(base_path):
 
 # Example usage:
 if __name__ == "__main__":
-    base_path = "/path/to/Cows"  # Replace with the actual path
+    base_path = "trial"  # Replace with the actual path
     output_path = os.path.join(base_path, "audio_features.csv")
 
     features_df = extract_features_from_audio_path(base_path)
